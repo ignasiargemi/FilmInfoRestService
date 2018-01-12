@@ -2,6 +2,9 @@ package Domain;
 
 public class Film {
 	
+	/**
+	 * Film class with all the required parameters
+	 */
 	private int id;
 	private String title;
 	private int year;

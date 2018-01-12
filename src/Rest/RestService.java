@@ -17,13 +17,9 @@ import Domain.Film;
 import Domain.FilmList;
 import Repository.FilmDAO;
 
-// POJO, no interface no extends
-// Class registers its methods for the HTTP GET request using the @GET annotation. 
-// Using the @Produces annotation, it defines that it can deliver several MIME 
-// types, text, XML and HTML. 
-// The browser requests per default the HTML MIME type.
-//Sets the path to base URL + /rest
-
+/**
+ * RESTful class to attend the request
+ */
 @Path("/films")
 public class RestService {
 	
